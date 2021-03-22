@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <script>
+      // your code here
+
+      // 3
+      const shoes = [
+        'Casual Shoes',
+        'Sneakers',
+        'Sandals',
+        'Boat Shoes',
+        'Dress Shoes'
+      ];
+
+      console.log(shoes);
+
+      // 4
+      console.log(shoes[0]);
+      console.log(shoes[shoes.length - 1]);
+
+      // 5
+      shoes[shoes.length - 1] = 'Derby Shoes';
+      console.log(shoes[shoes.length - 1]);
+
+      // 6
+      shoes.push('Espadrilles');
+      console.log(shoes[shoes.length - 1]);
+      console.log(shoes);
+
+      // 7
+      shoes.pop();
+      shoes.pop();
+      shoes.pop();
+      console.log(shoes[shoes.length - 1]);
+
+      // 8
+      const showLength = array => {
+        console.log(array.length);
+      };
+
+      showLength(shoes);
+    </script>
+  </body>
+</html>
